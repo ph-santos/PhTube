@@ -21,10 +21,6 @@ html {
     font-size: 65.5%;
 }
 
-body {
-    height: 100vh;
-}
-
 body::-webkit-scrollbar {
     width: .8rem;
     background: rgba(204, 204, 204, 0.466);
@@ -363,9 +359,5 @@ body::-webkit-scrollbar-thumb {
 @media screen and (max-width: 525px) {
     .nav-middle .search-box input {
         width: 11rem;
-    }
-
-    body {
-        overflow: hidden;
     }
 }
